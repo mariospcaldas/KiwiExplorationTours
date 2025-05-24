@@ -59,6 +59,7 @@ header img {
   display: flex;
   margin: 10px auto;
 }
+
 .img-logo {
   display: flex;
 }
@@ -98,12 +99,13 @@ td {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin-top: 20px;
+  gap: 50px;
+
+  align-content: stretch;
+  justify-items: center;
 }
 
 .grid img {
-  width: 100%;
+  width: 20%;
   height: auto;
-  border-radius: 5px;
 }
